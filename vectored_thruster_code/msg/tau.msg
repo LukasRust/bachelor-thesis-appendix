@@ -1,0 +1,2 @@
+control_vector translational
+control_vector rotational

@@ -1,0 +1,9 @@
+<launch>
+  <node name = "pose_estimation" pkg = "vector_thruster" type = "pose_estimation" output = "screen"/>
+  <node name = "trajectory_generator" pkg = "vector_thruster" type = "trajectory_generator" output = "screen"/>
+  <node name = "controller" pkg = "vector_thruster" type = "controller" output = "screen"/>
+  <node name = "dynamic_model" pkg = "vector_thruster" type = "dynamic_model" output = "screen"/>
+  <node name = "control_allocator" pkg = "vector_thruster" type = "control_allocator" output = "screen"/>
+  <node name = "actuator" pkg = "vector_thruster" type = "actuator" output = "screen"/>
+  <node name = "saver" pkg = "vector_thruster" type = "saver" output = "screen"/>
+</launch>
